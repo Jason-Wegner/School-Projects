@@ -1,0 +1,16 @@
+a = 'purple'
+b = 'Orange'
+c = 'Purple'
+d = 'Orange'
+
+# showing == is case sensitive
+if a == c:
+    print('a and c are equal')
+else:
+    print('a and c are not equal')
+
+# using !=
+if b != d:
+    print('b and d are not equal')
+else:
+    print('b and d are equal')
